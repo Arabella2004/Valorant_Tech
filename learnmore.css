@@ -1,0 +1,256 @@
+/*--HOME AGENTS--*/
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ece7e1;
+    cursor: default;
+    overflow-x: hidden;
+  }
+  
+  
+  .links a:hover {
+    color: red;
+  }
+  
+  nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 5%;
+    display: inline;
+    justify-content: space-between;
+  }
+  
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: bold 14px;
+  }
+  
+  /*-----------------------  Footer  -----------------------*/
+  
+  footer {
+    background-color: #111111;
+    color: #7c7e82;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer p {
+    padding: 0 10%;
+    font-size: 70%;
+  }
+  
+  footer span {
+    text-transform: uppercase;
+  }
+  
+  /*-----------------------  Index-valorantIntro  -----------------------*/
+  .valorantIntro {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 150px;
+  }
+  
+  .valorantIntro h1 {
+    color: #0f1922;
+    text-transform: uppercase;
+    font-size: 400%;
+    font-family: VALORANT;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  .introColumn {
+    display: flex;
+    flex-flow: column-reverse;
+    align-items: center;
+    padding: 20%;
+  }
+  
+  #intro {
+    padding-top: 40px;
+    font-size: 40px;
+    margin-top: 50px;
+  }
+  
+  .introLeft {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .introRight {
+    width: 100%;
+  }
+
+  .introRight img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+  }
+  
+  .introLeft h2 {
+    color: black;
+    text-transform: uppercase;
+
+  }
+  
+  .introLeft p {
+    color: #3e2723;
+    padding: 50px;
+    border-bottom: solid 1px black;
+  }
+  
+  .introColumn {
+    display: flex;
+    flex-flow: column-reverse;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .introLeft h1 {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+    text-transform: uppercase;
+    font-family:  VALORANT;
+  }
+
+
+  
+  /*-----------------------  Index-agentsIntro  -----------------------*/
+  .agentsIntro {
+    width: 100%;
+    background-color: #ff4654;
+    margin-bottom: 100px;
+    margin-top: 350px;
+  }
+  
+  .agentsColumn {
+    display: flex;
+    flex-flow: column-reverse;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .agentsLeft {
+    width: 100%;
+  }
+  
+  .agentsRight {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .agentsRight h1 {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+    color: #ece7e1;
+    text-transform: uppercase;
+    font-family: VALORANT;
+  }
+  
+  .agentsRight h2 {
+    color: #ece7e1;
+    text-transform: uppercase;
+  }
+  
+  .agentsRight p {
+    color: #ece7e1;
+  }
+  
+  .agentsLeft img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+  }
+  
+  .agentsSub {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  .agentsRight a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #0f1923;
+    background-color: #ece7e1;
+    padding: 8px 20px;
+    border-radius: 5px;
+  }
+  
+  .agentsRight a:hover {
+    background-color: #0f1923;
+    color: #ece7e1;
+    transition: 0.5s;
+  }
+
+  
+  /*-----------------------  Index-mapsIntro  -----------------------*/
+  .mapsIntro {
+    height: 1000px;
+    width: 100%;
+    background-image: url(./mapintro.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .mapsIntro h1 {
+    color: #0f1922;
+    text-transform: uppercase;
+    font-size: 200%;
+  }
+  
+  .mapsColumn {
+    display: flex;
+    flex-flow: column;
+    margin: 20px 0;
+  }
+  
+  .mapsLeft {
+    width: 100%;
+    margin-top: 10px;
+    border-bottom: solid 1px black;
+  }
+  
+  .mapsLeft h2 {
+    color: black;
+    text-transform: uppercase;
+    font-family: VALORANT;
+  }
+  
+  .mapsLeft p {
+    color: black;
+    padding-bottom: 100px;
+    font-size: 14px;
+  }
+  
+  /* Media Query for Phone Screen */
+  @media screen and (max-width: 360px) {
+    h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .valorantIntro {
+        height: 250px;
+    }
+    .mapsIntro {
+        height: 200px;
+    }
+  }
